@@ -1,0 +1,21 @@
+3. To Rename a Column name:-
+SYNTAX:
+	Alter table_name
+	Rename Column existing_column_name to New_column_name;
+
+EXAMPLE:
+If we have a table called "students" with columns "student_id", "student_name" and "ph_no", 
+we can use the following SQL query to Rename a Column name from the "ph_no" to "Contact_no" :
+	Alter table student
+	Rename column ph_no to Contact_no;
+
+6. Remove duplicate from table:-
+SYNTAX:
+	Select Distinct column_name
+	From table_name;
+
+EXAMPLE: 
+If we have a table called "employees" with columns "emlployee_id" and "emlployee_name", 
+we can use the following SQL query to remove duplicates from the "emlployee_name" column:
+	Select Distinct emlployee_name
+	From emlployees;
